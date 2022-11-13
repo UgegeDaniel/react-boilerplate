@@ -62,5 +62,16 @@ npm init @eslint/config
 ```
 
 ```sh
-npx eslint . --ext .js,.jsx,.ts,.tsx
+npx eslint . --ext .js,.jsx,.ts,.tsx --fix
+```
+
+## REACT TESTING LIBRARY SETUP 
+
+```sh
+npm install --save-dev @testing-library/react && npm install @testing-library/jest-dom @testing-library/react @testing-library/user-event @types/jest jest-extended @types/node
+```
+
+## REACT LOADER SPINNER 
+```sh
+npm install react-loader-spinner
 ```
